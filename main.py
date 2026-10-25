@@ -1,11 +1,11 @@
 import qrcode
 
 # The data or link you want to embed
-data = "https://google.com"
+data = "https://www.xraiga.dev"
 
 # Generate the QR code
 img = qrcode.make(data)
 
 # Save it as an image file
-img.save("basic_qr.png")
+img.save("XRaiga.png")
 print("QR Code generated successfully!")
